@@ -1,94 +1,29 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import './App.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <main >
+      <header>
+        <a className='logo'>Shawn's Blog</a>
+        <nav>
+          <a href="">Login</a>
+          <a href="">Sign Up</a>
+        </nav>
+      </header>
+      <div className='post'>
+        <img src='https://www.ballysports.com/images/image/private/t_1-1_768/f_auto/v1698288488/prod/ytdjmyqla8mxl89qiax2.jpg' alt='tyrese haliburton against the washington wizards' />
+        <h2>Tyrese Haliburton Leads Charge To First Win of the Season</h2>
+        <p>Brown scored 24 points, making a career-high six 3-pointers in his Pacers debut, and Tyrese Haliburton and Andrew Nembhard each finished with double-doubles in a 143-120 rout over Washington, the highest-scoring season-opener in franchise history. The previous mark, 140, came in 2017 against Brooklyn.</p>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className='post'>
+        <img src='https://www.ballysports.com/images/image/private/t_1-1_768/f_auto/v1698288488/prod/ytdjmyqla8mxl89qiax2.jpg' alt='tyrese haliburton against the washington wizards' />
+        <h2>Tyrese Haliburton Leads Charge To First Win of the Season</h2>
+        <p>Brown scored 24 points, making a career-high six 3-pointers in his Pacers debut, and Tyrese Haliburton and Andrew Nembhard each finished with double-doubles in a 143-120 rout over Washington, the highest-scoring season-opener in franchise history. The previous mark, 140, came in 2017 against Brooklyn.</p>
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className='post'>
+        <img src='https://www.ballysports.com/images/image/private/t_1-1_768/f_auto/v1698288488/prod/ytdjmyqla8mxl89qiax2.jpg' alt='tyrese haliburton against the washington wizards' />
+        <h2>Tyrese Haliburton Leads Charge To First Win of the Season</h2>
+        <p>Brown scored 24 points, making a career-high six 3-pointers in his Pacers debut, and Tyrese Haliburton and Andrew Nembhard each finished with double-doubles in a 143-120 rout over Washington, the highest-scoring season-opener in franchise history. The previous mark, 140, came in 2017 against Brooklyn.</p>
       </div>
     </main>
   )
